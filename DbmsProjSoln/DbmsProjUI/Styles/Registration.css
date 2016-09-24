@@ -1,0 +1,19 @@
+﻿body 
+{
+    text-align:left;
+    font-size:12pt;
+    width: 138px;
+    font-family:Times New Roman;
+}
+td
+{
+    text-align:left;
+    font-size:18px;
+    padding-left:20px;
+   
+}
+ImageButton
+{
+   Height:10px;
+   Width:80px;
+}

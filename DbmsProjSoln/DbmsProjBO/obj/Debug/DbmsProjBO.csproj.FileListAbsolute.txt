@@ -1,0 +1,4 @@
+E:\My Documents\Visual Studio 2010\Projects\DbmsProjSoln\DbmsProjBO\bin\Debug\DbmsProjBO.dll
+E:\My Documents\Visual Studio 2010\Projects\DbmsProjSoln\DbmsProjBO\bin\Debug\DbmsProjBO.pdb
+E:\My Documents\Visual Studio 2010\Projects\DbmsProjSoln\DbmsProjBO\obj\Debug\DbmsProjBO.dll
+E:\My Documents\Visual Studio 2010\Projects\DbmsProjSoln\DbmsProjBO\obj\Debug\DbmsProjBO.pdb

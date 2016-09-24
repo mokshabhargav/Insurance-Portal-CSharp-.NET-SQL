@@ -1,0 +1,7 @@
+E:\My Documents\Visual Studio 2010\Projects\DbmsProjSoln\DbmsProjDAL\bin\Debug\DbmsProjDAL.dll
+E:\My Documents\Visual Studio 2010\Projects\DbmsProjSoln\DbmsProjDAL\bin\Debug\DbmsProjDAL.pdb
+E:\My Documents\Visual Studio 2010\Projects\DbmsProjSoln\DbmsProjDAL\bin\Debug\DbmsProjBO.dll
+E:\My Documents\Visual Studio 2010\Projects\DbmsProjSoln\DbmsProjDAL\bin\Debug\DbmsProjBO.pdb
+E:\My Documents\Visual Studio 2010\Projects\DbmsProjSoln\DbmsProjDAL\obj\Debug\DbmsProjDAL.csprojResolveAssemblyReference.cache
+E:\My Documents\Visual Studio 2010\Projects\DbmsProjSoln\DbmsProjDAL\obj\Debug\DbmsProjDAL.dll
+E:\My Documents\Visual Studio 2010\Projects\DbmsProjSoln\DbmsProjDAL\obj\Debug\DbmsProjDAL.pdb

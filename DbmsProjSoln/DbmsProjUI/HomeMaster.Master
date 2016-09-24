@@ -1,0 +1,77 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HomeMaster.master.cs"
+    Inherits="team7H127.HomeMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Life Insurance Company of West</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">        
+    </asp:ContentPlaceHolder>
+</head>
+<body style="font-family: Times New Roman; background-color: ThreeDHighlight">
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <div>
+        <img src="images/Main.jpg" alt="" title="" style="position: relative; height: 158px;
+            top: 0px; left: 0px; width: 1000px;" />
+    </div>
+    <div id="main">
+        <table>
+            <tr>
+                <td>
+                    <div align="center" id="buttons" style="background: url(images/menu.gif); width: 1000px;
+                        margin-left: 0px;">
+                        <asp:Menu ID="Menu1" runat="server" DynamicHorizontalOffset="10" Font-Names="Calisto MT"
+                            Font-Size="21px" ForeColor="White" font-weight="bold" Orientation="Horizontal"
+                            StaticSubMenuIndent="10px" align="center" OnMenuItemClick="Menu1_MenuItemClick">
+                            <DynamicHoverStyle BackColor="#33CCCC" ForeColor="White" />
+                            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+                            <DynamicMenuStyle BackColor="#33CCCC" />
+                            <DynamicSelectedStyle BackColor="#33CCFF" />
+                            <Items>
+                                <asp:MenuItem Text="Home" Value="Home" NavigateUrl="~/UserRegistration.aspx" Enabled="True">
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Login" Value="Login" NavigateUrl="~/UserLogin.aspx" Enabled="True">
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Policies" Value="Policies" NavigateUrl="~/UserPolicies.aspx" Enabled="True">
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Hospitals" Value="Hospitals" NavigateUrl="~/UserHospitals.aspx"
+                                    Enabled="True"></asp:MenuItem>
+                                <asp:MenuItem Text="Claim" Value="Claim" NavigateUrl="~/UserLogin.aspx" Enabled="True">
+                                </asp:MenuItem>
+                                <asp:MenuItem Text="Logout" Value="Logout"></asp:MenuItem>
+                            </Items>
+                            <StaticHoverStyle BackColor="#33CCCC" ForeColor="White" />
+                            <StaticMenuItemStyle ItemSpacing="150px" Width="150px" />
+                            <StaticSelectedStyle BackColor="#33CCFF" />
+                        </asp:Menu>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p align="center"><asp:Label ID="lblErrMsg" runat="server" ForeColor="#CC3300"></asp:Label>
+                    <asp:Label ID="lblSession" runat="server" ForeColor="#CC3300" Visible="False"></asp:Label></p>
+                    <div>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        </asp:ContentPlaceHolder>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div align="center" style="font-size: 15px; margin-bottom: 20px; margin-top: 100px;">
+                        &copy Copyrights reserved.<br />
+                        &reg Registered &amp; Corporate Office: Life Insurance Company of West, San Jose, California 95192-0009<br />
+                        Site designed by: CMPE180-38 Team7<br />
+                        Insurance is the subject matter of solicitation. IRDA Registration no. 777 issued
+                        on 1st December 2014.<br />
+                    </div>
+                </td>
+            </tr>
+        </table>
+        </div>
+    </form>
+</body>
+</html>
